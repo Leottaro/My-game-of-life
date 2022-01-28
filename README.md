@@ -7,8 +7,7 @@
 ![Preview](./Preview.gif)
 
 I made my own Game of Life.
-The file contains the VS project with the executable of the compiled version.
-
+The file contains the VS project with the executable of the compiled version. <br/>
 Here is an exemple of a short test that end with 3 stable structures.
 
 ## What is the Conway's game of live ?
