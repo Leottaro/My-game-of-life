@@ -1,0 +1,17 @@
+﻿<Window x:Class="Game_Of_LIfe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game_Of_LIfe"
+        mc:Ignorable="d"
+        Title="Leottaro's Game of life" Height="489" Width="800"
+        Name ="MyWindow" ResizeMode="NoResize" KeyDown="OnKeyDown">
+    <Canvas Name="MyCanvas" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Top" MouseDown="OnClick" MouseMove="MyCanvas_MouseMove">
+        <Label Name="GenLabel" Content="0" Panel.ZIndex="1" FontSize="20" FontWeight="Bold" Foreground="Red"/>
+        <Label Name="LabelTick" Content="17" Panel.ZIndex="1" Margin="0, 450, 0, 0" Width="60" Height="30" FontSize="14" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <Slider Name="TickSlider" Margin="65, 450, 0, 0" Value="17" Minimum="1" Maximum="500" Width="670" Height="30" HorizontalAlignment="Left" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" ValueChanged="TickSlider_ValueChanged"/>
+        <Button Name="ClearButton" Content="Clear" Margin="750, 450, 0, 0" Width="50" Height="30" Focusable="False" Click="ClearButton_Click"/>
+        <Button Name="PauseButton" Content="Play" Margin="700, 450, 0, 0" Width="50" Height="30" Focusable="False" Click="PauseButton_Click"/>
+    </Canvas>
+</Window>
