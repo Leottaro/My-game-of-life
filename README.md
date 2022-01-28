@@ -1,7 +1,7 @@
 # My Game of Life
 
 ![Language](https://img.shields.io/badge/Languages-C#%20+%20XAML-999999)
-![Software](https://img.shields.io/badge/Software-Microsoft%20sVisual%20Studio%202019-3070A0)
+![Software](https://img.shields.io/badge/Software-Microsoft%20Visual%20Studio%202019-3070A0)
 ![Version](https://img.shields.io/badge/-v1.1-A00000)
 
 ![Preview](./Preview.gif)
